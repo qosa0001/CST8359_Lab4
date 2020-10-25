@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEcO24P5JmkO9joe3TEPPAwAAAAACAAAAAAAQZgAAAAEAACAAAABI7D7x9XTyCWH0usGmak31i0/TYQ4xGC1SscFKFDcXJwAAAAAOgAAAAAIAACAAAADJpBYVs6egLNzSKWU+wDr00s9IS1u0X/+iPbs19bNZwIAAAAAx0WrHR8I48z8as1fLGa/vy9M+rIonwPKjzgqsn5owDC67t3GGzv0bZR8TmXbZUEvyGSA9+xin/4gQMGXdU+eSZPdgW1Yh8wKFcszCr9LpEs219w233uFTlOn3HjuxW5nYAFc2Rghopo6GG5ZBJ1aCTeO8o5M+4RpzFEwNroWGCkAAAAATWfXqkyjbIqXA9fwqgrzfNelwxJFzSSOCuVDjW+wx7A8HwpUNOLcwPB3NjJR8IPwDg2k/T8MaPnoxuZWLxJlP</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:qosa0001sqlserver.database.windows.net,1433%3bInitial Catalog=qosa0001database%3bPersist Security Info=False%3bUser ID=qosa0001admin%3bPassword=Qosa0001pass%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab4.Data.SchoolCommunityContext">
+      <Value>Server=tcp:qosa0001sqlserver.database.windows.net,1433%3bInitial Catalog=qosa0001database%3bPersist Security Info=False%3bUser ID=qosa0001admin%3bPassword=Qosa0001pass%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
